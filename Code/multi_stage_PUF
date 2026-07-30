@@ -1,5 +1,7 @@
 `timescale 1ns / 1ps
 
+// Note that this is currently set for only a 3-stage APUF. Files will be updated/added as more progress/testing is completed.
+
 module multi_stage_PUF(
     input wire start_wire,
     input wire [2:0] challenge_select,
